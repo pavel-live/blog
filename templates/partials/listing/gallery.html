@@ -1,0 +1,20 @@
+if $images do
+	<div class="gallery gallery-bottom" id="gallery">
+		<div class="row txt-to-center">
+			<div class="row hide-down-ml link-top"><div class="col center"><a href="#info" class="icon read scroll"><span>info</span></a></div></div>
+			<div class="col w8 have-sub-modules">
+				<div class="scrollolo" data-dotted="true" data-height="auto" data-arrows="true" data-responsive="true" data-looped="true" data-supportTouch="true" data-supportKeyboard="true" data-supportGetClass="true" >
+					foreach $images[:7] do
+						<div class="item-scrollolo item height-body bg-cover responsive-bg :part-is-dark-image-class"    
+						style="background-image: url('@root_path/render/w750@render_file_path');"    
+						data-src-x-small="@root_path/render/w750@render_file_path"     
+						data-src-small="@root_path/render/w1000@render_file_path"     
+						data-src-x-large="@root_path/render/w1500@render_file_path"     
+						:part-is-dark-image-param     
+						></div>
+					endforeach
+				</div>
+			</div>
+		</div>
+	</div>
+endif

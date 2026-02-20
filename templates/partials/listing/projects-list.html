@@ -1,0 +1,24 @@
+if $children do
+<div class="level projects" id="@slug"><div class="row"><div class="col w8 have-sub-modules masonry projects-list">
+    reverse $children do
+					<div class="col txt-to-center project bg-cover responsive-bg ratio-@preview-ratio "
+						if @thumb do    
+							style="background-image: url('@root_path/render/w750@thumb_render');"    
+							data-src-x-small="@root_path/render/w750@thumb_render"     
+							data-src-small="@root_path/render/w1000@thumb_render"     
+							data-src-x-large="@root_path/render/w1500@thumb_render"     
+						endif >
+						<a href="/@permalink">
+							<div class="overlay">
+								<h3 class="ruller">:title-vs-menu</h3>
+								<div class="summary">
+									if @summary do <div class="txt">@summary</div>endif
+									if @date do <p class="date"><em>@date</em></p>endif
+								</div>
+							</div>
+						</a>
+					</div>
+    endreverse
+<div class="col grid-sizer">&nbsp;</div>
+</div></div></div>
+endif

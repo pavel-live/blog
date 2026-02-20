@@ -1,0 +1,29 @@
+title: Zeppelin Sofa
+-
+date: 2012 January
+-
+client: This concept is searching for a manufacturer.
+-
+material: Fabric
+-
+awards:
+-
+preview-ratio: 1x2
+-
+is-dark:
+-
+summary:
+
+A contemporary dynamic shape sofa, which is able to become an interior composition center.
+
+-
+content:
+
+> Zeppelin is a soft lining sofa. The inspiration for this product was the aero forms and framework structures of the similarly-named dirigible, named after a German inventor Ferdinand Zeppelin.
+
+It is a framework structure with its smooth lines and big radii on which you can arrange yourself for the rest. Notwithstanding the fact that, an image for this sofa's creation was a Rigid airship image, the soft lining and internal filler formation create a soft effect.
+ 
+This sofa will definitely seamlessly fit a contemporary interior, creating its composition center.
+
+-
+

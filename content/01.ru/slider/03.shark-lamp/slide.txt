@@ -1,0 +1,15 @@
+type: Запуск в производство
+-
+title: Sharr-rr-r-k!
+-
+is-dark: yes
+-
+background-color:darkblue
+-
+link: /ru/projects/shark-lamp/
+-
+summary:
+
+Концепт родился три года назад, но чтобы сделать из&nbsp;идеи продукт пришлось пройти большой путь. Мы&nbsp;с&nbsp;радостью сообщаем о&nbsp;запуске лампы «Shark» в&nbsp;серийное производство.
+
+-

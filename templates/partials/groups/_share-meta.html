@@ -1,0 +1,11 @@
+<meta name="robots" content="all" />
+<meta name="revisit-after" content="10 days" />
+<meta name="keywords" content="if @meta-keywords do @meta-keywords endif if !@meta-keywords do @site-keywords<?=PageData::$language?>, :meta-keywords-automatic endif" />
+<meta name="description" content="striptags
+										if @meta-description do @meta-description endif
+										if !@meta-description do :meta-description-automatic endif
+									endstriptags" />
+<link rel="image_src" href="striptags
+										if @thumb do //@domain_name/render/w750@thumb_render endif
+										if !@thumb do :thumb-site endif
+								endstriptags" />									

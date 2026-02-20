@@ -1,0 +1,11 @@
+if $children do
+  <ol>
+  foreach $children do
+    <li>
+      if @is_current do <strong>:menu-vs-title</strong> endif
+      if !@is_current do <a href=":permalink-vs-link">:menu-vs-title</a> endif
+      :children
+    </li>
+  endforeach
+  </ol>
+endif

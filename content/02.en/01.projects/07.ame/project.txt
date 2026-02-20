@@ -1,0 +1,31 @@
+title: Ame Mixer Tap
+-
+date: 2010 January
+-
+client:
+-
+materials: 
+-
+awards:
+
+2010 **Design and Design**, Paris, France.
+
+-
+preview-ratio: 1x1
+-
+is-dark:
+-
+summary:
+
+An organic mixer tap equipped with the sensor temperature adjustment system.
+
+-
+content:
+
+The starting point for the Ame mixer tap creation was a symbiosis of the technologies with the everyday objects with which a human interacts, even, if they were analogous before. 
+
+Its organic form, made out of the genuine composite stone is pleasant both visually, and tactually, which brings the naturality into the water procedures process.
+
+The water temperature and pressure adjustment interface is situated on the sensor panel handle.
+
+-

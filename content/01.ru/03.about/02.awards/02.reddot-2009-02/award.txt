@@ -1,0 +1,10 @@
+award: reddot
+-
+title: Red<strong>Dot</strong> Design Award
+-
+nomination: in concept design 2009
+-
+product: Water Symphony
+-
+product-link: /ru/projects/water-symphony/
+-

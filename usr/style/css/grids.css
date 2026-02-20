@@ -1,0 +1,985 @@
+﻿/* Grids
+*******************************************************************************************************************************/
+
+	.container,
+	.row,
+	.row .col  { vertical-align: top; position: relative; min-height: 1px; }
+		
+	.container,
+	.row { clear: both; }
+	
+	.container:after,
+	.container:before,
+	.row:after,
+	.row:before { content: " "; display: table; }
+	.container:after,
+	.row:after { clear: both; }
+	.container,
+	.row       { *zoom: 1; }
+	
+	.col       { 
+							display: -moz-inline-box;
+							display:  inline-block;
+							*display: inline;        /* huck only for IE */
+							zoom: 1;                 /* only for IE */
+				}
+					
+/***************************************************************/
+	.container {
+					width: 100%;
+					text-align: center;
+				}
+				
+	.row   {
+				width: 100%;
+			    letter-spacing: -0.63em;
+			    word-spacing: -0.63em;  
+					    
+				text-align: left;
+			}
+
+	.row .us-col,
+	.col 	{	
+				letter-spacing:normal;
+				word-spacing:normal;
+					    
+				text-align: left;
+			 }
+	
+
+
+/* ALIGNS
+**************************************************************/
+
+
+	/* MOD */
+	
+	.container.grid-to-left .row,
+	.row.grid-to-left       { text-align: left; }
+	
+	.container.grid-to-right .row,
+	.row.grid-to-right      { text-align: right; }
+	
+	.container.grid-to-center .row,
+	.row.grid-to-center     { text-align: center; }
+	
+	/* TXT */
+	
+	.container.txt-to-left .col,
+	.row.txt-to-left .col,
+	.col.txt-to-left       { text-align: left!important; }
+	
+	.container.txt-to-right .col,
+	.row.txt-to-rigth .col,
+	.col.txt-to-right      { text-align: right!important; }
+	
+	.container.txt-to-center .col,
+	.row.txt-to-center .col,
+	.col.txt-to-center     { text-align: center!important; }
+
+
+			   
+
+/* WIDTH & GUTTERS
+**************************************************************/
+
+
+	/* DEFAULT whith GAP
+	*******************************************/
+
+	.container {
+				  padding-right: 10px;
+				  padding-left:  10px;
+				  margin-right:  auto;
+				  margin-left:   auto;
+				  min-width: 300px;
+				}
+				
+	.row 		{
+				  margin-right:  auto;
+				  margin-left:   auto;
+				}
+
+	.col   		{
+				  padding-right: 10px;
+				  padding-left:  10px;
+				  width:         12.5%;		
+	        	}
+						
+	.col.w1    { width: 12.5%; }
+	.col.w2    { width: 25%;   }
+	.col.w3    { width: 37.5%; }
+	.col.w4    { width: 50%;   }
+	.col.w5    { width: 62.5%; }
+	.col.w6    { width: 75%;   }
+	.col.w7    { width: 87.5%; }
+	.col.w8    { width: 100%;  }
+	
+	.col.mrg1  { margin-left: 12.5%; }
+	.col.mrg2  { margin-left: 25%;   }
+	.col.mrg3  { margin-left: 37.5%; }
+	.col.mrg4  { margin-left: 50%;   }
+	.col.mrg5  { margin-left: 62.5%; }
+	.col.mrg6  { margin-left: 75%;   }
+	.col.mrg7  { margin-left: 87.5%; }
+
+	
+
+/* GRID SUB-MOD */
+	
+	.have-sub-modules
+									{	
+										padding-right: 0!important;
+										padding-left:  0!important;
+										
+										font-size:2%!important;
+									    letter-spacing: -0.63em!important;
+									    word-spacing: -0.63em!important;
+									}
+	.have-sub-modules .col 			{	
+									    font-size:5000%!important;
+									    letter-spacing: normal;
+									    word-spacing: normal;  
+									}
+				
+	.have-sub-modules .col.w1-3    { width: 33.333%; }
+	.have-sub-modules .col.w2-3    { width: 66.666%; }
+	
+	.have-sub-modules .col.w1-4    { width: 25%; }
+	.have-sub-modules .col.w1-2,
+	.have-sub-modules .col.w2-4    { width: 50%; }
+	.have-sub-modules .col.w3-4    { width: 75%; }
+	
+	.have-sub-modules .col.w2-2,
+	.have-sub-modules .col.w3-3,
+	.have-sub-modules .col.w4-4    { width: 100%; }
+	
+	
+
+/*	
+.container {background: #EEE;}
+.row {background: #CCC;}
+.col {background: #999;}
+*/
+
+/* SIZES
+**************************************************************/
+
+	/* FIXED SIZES
+	   default: 100%
+	*/
+	
+	/* Mobile portrait */
+	.container.grid-fix-size-mp { width: 320px;  }
+	.row.grid-fix-size-mp       { width: 290px;  }
+	
+	/* Mobile landscape */
+	.container.grid-fix-size-ml { width: 480px;  }
+	.row.grid-fix-size-ml       { width: 450px;  }
+	
+	/* Tablet portrait */
+	.container.grid-fix-size-tp { width: 768px;  }
+	.row.grid-fix-size-tp       { width: 740px;  }
+	
+	/*
+	default fix,
+	Tablet landscape, Desktop small */
+	.container.grid-fix-size,
+	.container.grid-fix-size-tl,
+	.container.grid-fix-size-ds { width: 1024px; }
+	.row.grid-fix-size,
+	.row.grid-fix-size-tl,
+	.row.grid-fix-size-ds       { width: 990px;  }
+	
+	/* Desktop normal */
+	.container.grid-fix-size-dn { width: 1280px; }
+	.row.grid-fix-size-dn       { width: 1250px; }
+	
+	/* Desktop large */
+	.container.grid-fix-size-dl { width: 1440px; }
+	.row.grid-fix-size-dl       { width: 1410px; }
+	
+	
+	/* MAXIMUM-WIDTH SIZES
+	   default: no max-fix
+	*/
+
+	/* Mobile portrait */
+	.grid-max-size-mp { max-width: 320px;  }
+	
+	/* Mobile landscape */
+	.grid-max-size-ml { max-width: 480px;  }
+	
+	/* Tablet portrait */
+	.grid-max-size-tp { max-width: 768px;  }
+	
+	/* Tablet landscape, Desktop small */
+	.grid-max-size-tl,
+	.grid-max-size-ds { max-width: 1024px; }
+	
+	/* Desktop normal */
+	.grid-max-size-dn { max-width: 1280px; }
+	
+	/* default max fix,
+	 Desktop large */
+	.grid-max-size,
+	.grid-max-size-dl { max-width: 1440px; }
+	
+	
+
+/* SHOW and HIDE
+**************************************************************/	
+
+		/* HIDE */
+		/* from point to DOWN  */
+			.hide-down-mp,
+			.hide-down-ml,
+			
+			.hide-down-tp,
+			.hide-down-tl,
+			.hide-down-ds,
+			
+			.hide-down-dn,
+			.hide-down-dl { }
+			
+		/* from point to UP  */
+			.hide-up-mp,
+			.hide-up-ml,
+			
+			.hide-up-tp,
+			.hide-up-tl,
+			.hide-up-ds,
+			
+			.hide-up-dn,
+			.hide-up-dl { }
+			
+/* FLOATS
+**************************************************************/	
+
+		/* FLOAT-LEFT */
+		/* from point to DOWN  */
+			.float-left-down-mp,
+			.float-left-down-ml,
+			
+			.float-left-down-tp,
+			.float-left-down-tl,
+			.float-left-down-ds,
+			
+			.float-left-down-dn,
+			.float-left-down-dl { }
+			
+		/* from point to UP  */
+			.float-left-up-mp,
+			.float-left-up-ml,
+			
+			.float-left-up-tp,
+			.float-left-up-tl,
+			.float-left-up-ds,
+			
+			.float-left-up-dn,
+			.float-left-up-dl { }
+			
+			
+		/* FLOAT-RIGHT */
+		/* from point to DOWN  */
+			.float-right-down-mp,
+			.float-right-down-ml,
+			
+			.float-right-down-tp,
+			.float-right-down-tl,
+			.float-right-down-ds,
+			
+			.float-right-down-dn,
+			.float-right-down-dl { }
+			
+		/* from point to UP  */
+			.float-right-up-mp,
+			.float-right-up-ml,
+			
+			.float-right-up-tp,
+			.float-right-up-tl,
+			.float-right-up-ds,
+			
+			.float-right-up-dn,
+			.float-right-up-dl { }
+			
+			
+		/* FLOAT-NONE */
+		/* from point to DOWN  */
+			.float-none-down-mp,
+			.float-none-down-ml,
+			
+			.float-none-down-tp,
+			.float-none-down-tl,
+			.float-none-down-ds,
+			
+			.float-none-down-dn,
+			.float-none-down-dl { }
+			
+		/* from point to UP  */
+			.float-none-up-mp,
+			.float-none-up-ml,
+			
+			.float-none-up-tp,
+			.float-none-up-tl,
+			.float-none-up-ds,
+			
+			.float-none-up-dn,
+			.float-none-up-dl { }
+
+
+/*
+***********************************************************************************************
+MEDIA QUERIES
+
+FLUID GRID:
+< 481px			- 1-Column, or 2 mod Fluid Grid
+481px - 800px	- 2-Column, or 4 mod Fluid Grid
+801px - 1120px	- 3-Column, or 6 mod Fluid Grid
+> 1121px		- 4-Column, or 8 mod Fluid Grid
+
+
+mp - mobile portraite
+ml - mobile landscape
+
+tp - tablet portraite
+tl - tablet landscape
+
+ds - desktop small
+dn - desktop normal
+dl - desktop large
+
+***********************************************************************************************
+***********************************************************************************************/
+
+/*
+1 breakpoint *************/
+	/* MOBILE Portraite
+	(1-Column, or 2 mod Fluid Grid) ***********************************************************/
+		@media all and (max-width: 480px) {
+
+			.grid-responsive .col,					
+			.grid-responsive .col.w1    { width: 50%; }
+			.grid-responsive .col.w2,
+			.grid-responsive .col.w3,
+			.grid-responsive .col.w4,
+			.grid-responsive .col.w5,
+			.grid-responsive .col.w6,
+			.grid-responsive .col.w7,
+			.grid-responsive .col.w8    { width: 100%;  }
+			
+			.grid-responsive .col.mrg1,
+			.grid-responsive .col.mrg2,
+			.grid-responsive .col.mrg3,
+			.grid-responsive .col.mrg4,
+			.grid-responsive .col.mrg5,
+			.grid-responsive .col.mrg6,
+			.grid-responsive .col.mrg7  { margin-left: 50%; }
+			
+		/* GRID SUB-MOD */
+						
+			.have-sub-modules.grid-responsive .col.w1-2,
+			
+			.have-sub-modules.grid-responsive .col.w1-3,
+			.have-sub-modules.grid-responsive .col.w2-3,
+			
+			.have-sub-modules.grid-responsive .col.w1-4,
+			.have-sub-modules.grid-responsive .col.w2-4,
+			.have-sub-modules.grid-responsive .col.w3-4    { width: 100%; }
+			
+		}
+
+	/*  Sub-point Portraite */
+		@media all and (max-width: 320px) {
+
+				/* HIDE */
+				/* from point to DOWN  */
+				
+					.hide-down-mp,
+					.hide-down-ml,
+					
+					.hide-down-tp,
+					.hide-down-tl,
+					.hide-down-ds,
+					
+					.hide-down-dn,
+					.hide-down-dl { display: none!important; }
+					
+				/* RESIZERS */
+					.col.w1-mp    { width: 12.5%; }
+					.col.w2-mp    { width: 25%;   }
+					.col.w3-mp    { width: 37.5%; }
+					.col.w4-mp    { width: 50%;   }
+					.col.w5-mp    { width: 62.5%; }
+					.col.w6-mp    { width: 75%;   }
+					.col.w7-mp    { width: 87.5%; }
+					.col.w8-mp    { width: 100%;  }
+					
+					.col.mrg0-mp  { margin-left: 0; }
+					.col.mrg1-mp  { margin-left: 12.5%; }
+					.col.mrg2-mp  { margin-left: 25%;   }
+					.col.mrg3-mp  { margin-left: 37.5%; }
+					.col.mrg4-mp  { margin-left: 50%;   }
+					.col.mrg5-mp  { margin-left: 62.5%; }
+					.col.mrg6-mp  { margin-left: 75%;   }
+					.col.mrg7-mp  { margin-left: 87.5%; }
+					
+				/* FLOAT-LEFT */
+				/* from point to DOWN  */
+					.float-left-down-mp,
+					.float-left-down-ml,
+					
+					.float-left-down-tp,
+					.float-left-down-tl,
+					.float-left-down-ds,
+					
+					.float-left-down-dn,
+					.float-left-down-dl { float: left!important; }
+					
+					
+				/* FLOAT-RIGHT */
+				/* from point to DOWN  */
+					.float-right-down-mp,
+					.float-right-down-ml,
+					
+					.float-right-down-tp,
+					.float-right-down-tl,
+					.float-right-down-ds,
+					
+					.float-right-down-dn,
+					.float-right-down-dl { float: right!important; }
+					
+					
+				/* FLOAT-NONE */
+				/* from point to DOWN  */
+					.float-none-down-mp,
+					.float-none-down-ml,
+					
+					.float-none-down-tp,
+					.float-none-down-tl,
+					.float-none-down-ds,
+					
+					.float-none-down-dn,
+					.float-none-down-dl { float: none!important; }
+
+
+		}
+		
+	/*  Sub-point Landscape */
+		@media all and (min-width: 321px) and (max-width: 480px) {
+
+				/* HIDE */
+				/* from point to DOWN  */
+
+					.hide-down-ml,
+					
+					.hide-down-tp,
+					.hide-down-tl,
+					.hide-down-ds,
+					
+					.hide-down-dn,
+					.hide-down-dl { display: none!important; }
+					
+				/* from point to UP  */
+				
+					.hide-up-mp { display: none!important; }
+					
+				/* RESIZERS */
+					.col.w1-ml    { width: 12.5%; }
+					.col.w2-ml    { width: 25%;   }
+					.col.w3-ml    { width: 37.5%; }
+					.col.w4-ml    { width: 50%;   }
+					.col.w5-ml    { width: 62.5%; }
+					.col.w6-ml    { width: 75%;   }
+					.col.w7-ml    { width: 87.5%; }
+					.col.w8-ml    { width: 100%;  }
+					
+					.col.mrg0-ml  { margin-left: 0; }
+					.col.mrg1-ml  { margin-left: 12.5%; }
+					.col.mrg2-ml  { margin-left: 25%;   }
+					.col.mrg3-ml  { margin-left: 37.5%; }
+					.col.mrg4-ml  { margin-left: 50%;   }
+					.col.mrg5-ml  { margin-left: 62.5%; }
+					.col.mrg6-ml  { margin-left: 75%;   }
+					.col.mrg7-ml  { margin-left: 87.5%; }
+					
+				/* FLOAT-LEFT */
+				/* from point to DOWN  */
+					.float-left-down-ml,
+					
+					.float-left-down-tp,
+					.float-left-down-tl,
+					.float-left-down-ds,
+					
+					.float-left-down-dn,
+					.float-left-down-dl { float: left!important; }
+					
+				/* from point to UP  */
+					.float-left-up-mp { float: left!important; }
+					
+					
+				/* FLOAT-RIGHT */
+				/* from point to DOWN  */
+					.float-right-down-ml,
+					
+					.float-right-down-tp,
+					.float-right-down-tl,
+					.float-right-down-ds,
+					
+					.float-right-down-dn,
+					.float-right-down-dl { float: right!important; }
+					
+				/* from point to UP  */
+					.float-right-up-mp { float: right!important; }
+					
+					
+				/* FLOAT-NONE */
+				/* from point to DOWN  */
+					.float-none-down-ml,
+					
+					.float-none-down-tp,
+					.float-none-down-tl,
+					.float-none-down-ds,
+					
+					.float-none-down-dn,
+					.float-none-down-dl { float: none!important; }
+					
+				/* from point to UP  */
+					.float-none-up-mp { float: none!important; }
+
+		
+		}
+/*
+2 breakpoint *************/
+	/* SMALL TABLET and TABLET PORTRAIT
+	(2-Column, or 4 mod Fluid Grid) ***********************************************************/
+		@media all and (min-width: 481px) and (max-width: 800px) {
+			
+			.grid-responsive .col,					
+			.grid-responsive .col.w1    { width: 25%; }
+			.grid-responsive .col.w2    { width: 50%; }
+			.grid-responsive .col.w3    { width: 75%; }
+			.grid-responsive .col.w4,
+			.grid-responsive .col.w5,
+			.grid-responsive .col.w6,
+			.grid-responsive .col.w7,
+			.grid-responsive .col.w8    { width: 100%;  }
+			
+			.grid-responsive .col.mrg1  { width: 25%; }
+			.grid-responsive .col.mrg2  { width: 50%; }
+			.grid-responsive .col.mrg3,
+			.grid-responsive .col.mrg4,
+			.grid-responsive .col.mrg5,
+			.grid-responsive .col.mrg6,
+			.grid-responsive .col.mrg7  { margin-left: 75%; }
+			
+		/* GRID SUB-MOD */
+						
+			.have-sub-modules.grid-responsive .col.w1-2,
+			.have-sub-modules.grid-responsive .col.w1-3    { width: 50%;  }
+			.have-sub-modules.grid-responsive .col.w2-3    { width: 100%; }
+			
+			.have-sub-modules.grid-responsive .col.w1-4,
+			.have-sub-modules.grid-responsive .col.w2-4    { width: 50%;  }
+			.have-sub-modules.grid-responsive .col.w3-4    { width: 100%; }
+		    
+			
+				/* HIDE */
+				/* from point to DOWN  */
+
+					.hide-down-tp,
+					.hide-down-tl,
+					.hide-down-ds,
+					
+					.hide-down-dn,
+					.hide-down-dl { display: none!important; }
+					
+				/* from point to UP  */
+				
+					.hide-up-mp,
+					.hide-up-ml { display: none!important; }
+					
+				/* RESIZERS */
+					.col.w1-tp    { width: 12.5%; }
+					.col.w2-tp    { width: 25%;   }
+					.col.w3-tp    { width: 37.5%; }
+					.col.w4-tp    { width: 50%;   }
+					.col.w5-tp    { width: 62.5%; }
+					.col.w6-tp    { width: 75%;   }
+					.col.w7-tp    { width: 87.5%; }
+					.col.w8-tp    { width: 100%;  }
+					
+					.col.mrg0-tp  { margin-left: 0; }
+					.col.mrg1-tp  { margin-left: 12.5%; }
+					.col.mrg2-tp  { margin-left: 25%;   }
+					.col.mrg3-tp  { margin-left: 37.5%; }
+					.col.mrg4-tp  { margin-left: 50%;   }
+					.col.mrg5-tp  { margin-left: 62.5%; }
+					.col.mrg6-tp  { margin-left: 75%;   }
+					.col.mrg7-tp  { margin-left: 87.5%; }
+					
+				/* FLOAT-LEFT */
+				/* from point to DOWN  */
+					.float-left-down-tp,
+					.float-left-down-tl,
+					.float-left-down-ds,
+					
+					.float-left-down-dn,
+					.float-left-down-dl { float: left!important; }
+					
+				/* from point to UP  */
+					.float-left-up-mp,
+					.float-left-up-ml { float: left!important; }
+					
+					
+				/* FLOAT-RIGHT */
+				/* from point to DOWN  */
+					.float-right-down-tp,
+					.float-right-down-tl,
+					.float-right-down-ds,
+					
+					.float-right-down-dn,
+					.float-right-down-dl { float: right!important; }
+					
+				/* from point to UP  */
+					.float-right-up-mp,
+					.float-right-up-ml { float: right!important; }
+					
+					
+				/* FLOAT-NONE */
+				/* from point to DOWN  */
+					.float-none-down-tp,
+					.float-none-down-tl,
+					.float-none-down-ds,
+					
+					.float-none-down-dn,
+					.float-none-down-dl { float: none!important; }
+					
+				/* from point to UP  */
+					.float-none-up-mp,
+					.float-none-up-ml { float: none!important; }
+					
+		}
+/*
+3 breakpoint *************/
+	/* LANDSCAPE TABLET / NETBOOK / SMALL DESKTOP
+	(3-Column, or 6 mod Fluid Grid) ***********************************************************/
+		@media all and (min-width: 801px) and (max-width: 1120px) { 
+			
+			.grid-responsive .col,					
+			.grid-responsive .col.w1    { width: 16.666%; }
+			.grid-responsive .col.w2    { width: 33.333%; }
+			.grid-responsive .col.w3    { width: 50%;     }
+			.grid-responsive .col.w4    { width: 66.666%; }
+			.grid-responsive .col.w5    { width: 83.333%; }
+			.grid-responsive .col.w6,
+			.grid-responsive .col.w7,
+			.grid-responsive .col.w8    { width: 100%;  }
+			
+			.grid-responsive .col.mrg1  { width: 16.666%; }
+			.grid-responsive .col.mrg2  { width: 33.333%; }
+			.grid-responsive .col.mrg3  { width: 50%;     }
+			.grid-responsive .col.mrg4  { width: 66.666%; }
+			.grid-responsive .col.mrg5,
+			.grid-responsive .col.mrg6,
+			.grid-responsive .col.mrg7  { width: 83.333%; }
+			
+		/* GRID SUB-MOD */
+		
+			.have-sub-modules.grid-responsive .col.w1-2   { width: 50%;     }
+			.have-sub-modules.grid-responsive .col.w1-3   { width: 33.333%; }
+			.have-sub-modules.grid-responsive .col.w2-3   { width: 66.666%; }
+			
+			.have-sub-modules.grid-responsive .col.w1-4   { width: 33.333%; }
+			.have-sub-modules.grid-responsive .col.w2-4   { width: 66.666%; }
+			.have-sub-modules.grid-responsive .col.w3-4	  { width: 100%;    }
+		    
+			
+			
+				/* HIDE */
+				/* from point to DOWN  */
+
+					.hide-down-tl,
+					.hide-down-ds,
+					
+					.hide-down-dn,
+					.hide-down-dl { display: none!important; }
+					
+				/* from point to UP  */
+				
+					.hide-up-mp,
+					.hide-up-ml,
+					
+					.hide-up-tp { display: none!important; }
+					
+				/* RESIZERS */
+					.col.w1-tl,
+					.col.w1-ds    { width: 12.5%; }
+					.col.w2-tl,
+					.col.w2-ds    { width: 25%;   }
+					.col.w3-tl,
+					.col.w3-ds   { width: 37.5%; }
+					.col.w4-tl,
+					.col.w4-ds    { width: 50%;   }
+					.col.w5-tl,
+					.col.w5-ds    { width: 62.5%; }
+					.col.w6-tl,
+					.col.w6-ds    { width: 75%;   }
+					.col.w7-tl,
+					.col.w7-ds    { width: 87.5%; }
+					.col.w8-tl,
+					.col.w8-ds    { width: 100%;  }
+					
+					.col.mrg0-tl,
+					.col.mrg0-ds  { margin-left: 0; }					
+					.col.mrg1-tl,
+					.col.mrg1-ds  { margin-left: 12.5%; }
+					.col.mrg2-tl,
+					.col.mrg2-ds  { margin-left: 25%;   }
+					.col.mrg3-tl,
+					.col.mrg3-ds  { margin-left: 37.5%; }
+					.col.mrg4-tl,
+					.col.mrg4-ds  { margin-left: 50%;   }
+					.col.mrg5-tl,
+					.col.mrg5-ds  { margin-left: 62.5%; }
+					.col.mrg6-tl,
+					.col.mrg6-ds  { margin-left: 75%;   }
+					.col.mrg7-tl,
+					.col.mrg7-ds  { margin-left: 87.5%; }
+					
+				/* FLOAT-LEFT */
+				/* from point to DOWN  */
+					.float-left-down-tl,
+					.float-left-down-ds,
+					
+					.float-left-down-dn,
+					.float-left-down-dl { float: left!important; }
+					
+				/* from point to UP  */
+					.float-left-up-mp,
+					.float-left-up-ml,
+					
+					.float-left-up-tp { float: left!important; }
+					
+					
+				/* FLOAT-RIGHT */
+				/* from point to DOWN  */
+					.float-right-down-tl,
+					.float-right-down-ds,
+					
+					.float-right-down-dn,
+					.float-right-down-dl { float: right!important; }
+					
+				/* from point to UP  */
+					.float-right-up-mp,
+					.float-right-up-ml,
+					
+					.float-right-up-tp { float: right!important; }
+					
+					
+				/* FLOAT-NONE */
+				/* from point to DOWN  */
+					.float-none-down-tl,
+					.float-none-down-ds,
+					
+					.float-none-down-dn,
+					.float-none-down-dl { float: none!important; }
+					
+				/* from point to UP  */
+					.float-none-up-mp,
+					.float-none-up-ml,
+					
+					.float-none-up-tp { float: none!important; }
+
+		}
+
+/*
+4 breakpoint *************/
+	/* DESKTOP
+	(4-Column, or 8 mod Fluid Grid) ***********************************************************/
+	@media all and (min-width: 1121px) {
+	
+		.container
+				{
+				  padding-right: 15px!important;
+				  padding-left:  15px!important;
+				}
+			
+			.col
+				{
+				  padding-right: 15px!important;
+				  padding-left:  15px!important;
+	        	}
+	        	
+	       	.have-sub-modules
+				{
+					padding-right: 0!important;
+					padding-left:  0!important;
+				}
+					
+		}
+		
+	/* Sub-point Desktop normal */
+		@media all and (min-width: 1121px) and (max-width: 1350px) { 
+		
+				/* HIDE */
+				/* from point to DOWN  */
+				
+					.hide-down-dn,
+					.hide-down-dl { display: none!important; }
+					
+				/* from point to UP  */
+				
+					.hide-up-mp,
+					.hide-up-ml,
+					
+					.hide-up-tp,
+					.hide-up-tl,
+					.hide-up-ds { display: none!important; }
+					
+				/* RESIZERS */
+					.col.w1-dn    { width: 12.5%; }
+					.col.w2-dn    { width: 25%;   }
+					.col.w3-dn    { width: 37.5%; }
+					.col.w4-dn    { width: 50%;   }
+					.col.w5-dn    { width: 62.5%; }
+					.col.w6-dn    { width: 75%;   }
+					.col.w7-dn    { width: 87.5%; }
+					.col.w8-dn    { width: 100%;  }
+					
+					.col.mrg0-dn  { margin-left: 0; }					
+					.col.mrg1-dn  { margin-left: 12.5%; }
+					.col.mrg2-dn  { margin-left: 25%;   }
+					.col.mrg3-dn  { margin-left: 37.5%; }
+					.col.mrg4-dn  { margin-left: 50%;   }
+					.col.mrg5-dn  { margin-left: 62.5%; }
+					.col.mrg6-dn  { margin-left: 75%;   }
+					.col.mrg7-dn  { margin-left: 87.5%; }
+					
+				/* FLOAT-LEFT */
+				/* from point to DOWN  */
+					.float-left-down-dn,
+					.float-left-down-dl { float: left!important; }
+					
+				/* from point to UP  */
+					.float-left-up-mp,
+					.float-left-up-ml,
+					
+					.float-left-up-tp,
+					.float-left-up-tl,
+					.float-left-up-ds { float: left!important; }
+					
+					
+				/* FLOAT-RIGHT */
+				/* from point to DOWN  */
+					.float-right-down-dn,
+					.float-right-down-dl { float: right!important; }
+					
+				/* from point to UP  */
+					.float-right-up-mp,
+					.float-right-up-ml,
+					
+					.float-right-up-tp,
+					.float-right-up-tl,
+					.float-right-up-ds { float: right!important; }
+					
+					
+				/* FLOAT-NONE */
+				/* from point to DOWN  */
+					.float-none-down-dn,
+					.float-none-down-dl { float: none!important; }
+					
+				/* from point to UP  */
+					.float-none-up-mp,
+					.float-none-up-ml,
+					
+					.float-none-up-tp,
+					.float-none-up-tl,
+					.float-none-up-ds { float: none!important; }
+
+
+					
+		}	
+	/* Sub-point Desktop wide */
+		@media all and (min-width: 1351px) {
+		
+				/* HIDE */
+				/* from point to DOWN  */
+					.hide-down-dl { display: none!important; }
+			
+				/* HIDE */
+				/* from point to UP  */
+				
+					.hide-up-mp,
+					.hide-up-ml,
+					
+					.hide-up-tp,
+					.hide-up-tl,
+					.hide-up-ds,
+					
+					.hide-up-dn { display: none!important; }
+					
+				/* RESIZERS */
+					.col.w1-dl    { width: 12.5%; }
+					.col.w2-dl    { width: 25%;   }
+					.col.w3-dl    { width: 37.5%; }
+					.col.w4-dl    { width: 50%;   }
+					.col.w5-dl    { width: 62.5%; }
+					.col.w6-dl    { width: 75%;   }
+					.col.w7-dl    { width: 87.5%; }
+					.col.w8-dl    { width: 100%;  }
+
+					.col.mrg0-dl  { margin-left: 0; }					
+					.col.mrg1-dl  { margin-left: 12.5%; }
+					.col.mrg2-dl  { margin-left: 25%;   }
+					.col.mrg3-dl  { margin-left: 37.5%; }
+					.col.mrg4-dl  { margin-left: 50%;   }
+					.col.mrg5-dl  { margin-left: 62.5%; }
+					.col.mrg6-dl  { margin-left: 75%;   }
+					.col.mrg7-dl  { margin-left: 87.5%; }
+					
+				/* FLOAT-LEFT */
+				/* from point to DOWN  */
+					.float-left-down-dl { float: left!important; }
+					
+				/* from point to UP  */
+					.float-left-up-mp,
+					.float-left-up-ml,
+					
+					.float-left-up-tp,
+					.float-left-up-tl,
+					.float-left-up-ds,
+					
+					.float-left-up-dn { float: left!important; }
+					
+					
+				/* FLOAT-RIGHT */
+				/* from point to DOWN  */
+					.float-right-down-dl { float: right!important; }
+					
+				/* from point to UP  */
+					.float-right-up-mp,
+					.float-right-up-ml,
+					
+					.float-right-up-tp,
+					.float-right-up-tl,
+					.float-right-up-ds,
+					
+					.float-right-up-dn { float: right!important; }
+					
+					
+				/* FLOAT-NONE */
+				/* from point to DOWN  */
+					.float-none-down-dl { float: none!important; }
+					
+				/* from point to UP  */
+					.float-none-up-mp,
+					.float-none-up-ml,
+					
+					.float-none-up-tp,
+					.float-none-up-tl,
+					.float-none-up-ds,
+					
+					.float-none-up-dn { float: none!important; }
+
+		}

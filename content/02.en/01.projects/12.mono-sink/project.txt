@@ -1,0 +1,32 @@
+title: Mono Sink
+-
+date: 2013 February
+-
+client: <a href="http://www.schock.de/">Schock</a>. Regen, Germany.
+-
+material: Cristadur
+-
+awards:
+
+2013 **Red Dot Design Award**, in product design.
+
+-
+preview-ratio: 2x2
+-
+is-dark: yes
+-
+summary:
+
+This sink's design develops the emotional minimalism philosophy at the kitchen.
+
+-
+content:
+
+> The approach to the Mono sink design creation included the kitchen sinks functional characteristics expressing, with a minimal amount of lines and bevels, for which it would be easy to care for and which at the same time would create an interesting and dynamic image for a contemporary kitchen.
+
+On the sink's side there is an overflow, which, alongside with the outlet is designed in such a way, that it can manage a maximum water flow rate without any difficulties.
+
+The sink is manufactured out of Cristadur, an innovational material, which creates the pleasant sensations with each touch and has better working characteristics, thanks to its unique composition.
+
+-
+ 

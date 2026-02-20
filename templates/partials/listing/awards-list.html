@@ -1,0 +1,14 @@
+if $children do
+			<div class="row txt-to-center">
+				<div class="col w8 w7-dn w6-dl have-sub-modules grid-responsive awards-list">
+				      reverse $children do
+					     if @title do
+					     	<div class="col w1-3 award @award">
+					     		<div class="pic"></div><h4>@title <em>@nomination</em></h4>
+						     	if @product do <p>:part-product-link</p> endif
+					     	</div>
+					     endif
+				      endreverse
+				</div>
+			</div>
+endif

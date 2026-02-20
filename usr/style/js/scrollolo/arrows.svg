@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px"
+	 height="280px" viewBox="0 0 100 280" enable-background="new 0 0 100 280" xml:space="preserve">
+<g id="Layer_2">
+	<g>
+		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#333333" points="90.573,69.911 80.573,39 77.483,39 87.483,69.911 
+			87.583,70 87.458,70 77.458,100 80.548,100 90.548,70 90.48,70"/>
+		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#333333" points="13.389,70 13.548,69.911 23.548,39 20.458,39 
+			10.458,69.911 10.573,70 10.483,70 20.483,100 23.573,100 13.573,70"/>
+	</g>
+	<g>
+		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" points="90.573,209.911 80.573,179 77.483,179 87.483,209.911 
+			87.583,210 87.458,210 77.458,240 80.548,240 90.548,210 90.48,210"/>
+		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" points="13.389,210 13.548,209.911 23.548,179 20.458,179 
+			10.458,209.911 10.573,210 10.483,210 20.483,240 23.573,240 13.573,210"/>
+	</g>
+</g>
+</svg>

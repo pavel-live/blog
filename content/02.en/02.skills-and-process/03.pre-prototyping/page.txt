@@ -1,0 +1,7 @@
+title: Test Prototyping
+-
+content:
+
+When working on a project, we make prototypes that help in assessing of the object visual solution and provide for testing of the ergonomics at early stages. Results of the tests facilitate improving of the existing solutions.
+
+-

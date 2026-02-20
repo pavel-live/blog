@@ -1,0 +1,22 @@
+<div class="content focused" id="top">
+	<div class="container grid-max-size-dl grid-responsive grid-to-center">
+		get "<?=$_SERVER['REQUEST_URI']?>slider" do
+		if $children do
+		<div class="gallery clearfix">
+			<div class="row txt-to-center">
+				<div class="col w8 have-sub-modules">
+					<div class="scrollolo" data-dotted="true" data-height="max" data-arrows="true" data-responsive="true" data-looped="true" data-supportTouch="true" data-supportKeyboard="true" data-supportGetClass="true" data-Autoplay="4000" >
+						reverse $children[:7] do
+							if @title do
+								:slider-list-item
+							endif
+						endreverse
+					</div>
+				</div>
+			</div>
+		</div>
+		endif
+		end
+	</div>
+	<div class="for-footer-shadow"><div class="container grid-max-size-dl"><div class="row shadow-down"></div></div></div>
+</div>

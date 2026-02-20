@@ -1,0 +1,6 @@
+title: Название клиента
+-
+location: Опциональное поле для описания клиента, при желании
+-
+link: http://www.client-site-name.com
+-

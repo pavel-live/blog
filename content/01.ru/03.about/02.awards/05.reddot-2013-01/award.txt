@@ -1,0 +1,10 @@
+award: reddot
+-
+title: Red<strong>Dot</strong> Design Award
+-
+nomination: in product design 2013
+-
+product: Mono Sink
+-
+product-link: /ru/projects/mono-sink/
+-

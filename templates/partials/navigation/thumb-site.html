@@ -1,0 +1,5 @@
+<?
+	 if (file_exists(Config::$content_folder.'/usr/thumb.png')) print "//@domain_name@root_content/usr/thumb.png";
+else if (file_exists(Config::$content_folder.'/usr/thumb.jpg')) print "//@domain_name@root_content/usr/thumb.jpg";
+else print "http://all.templates.promin.info/usr/thumb.png";
+?>

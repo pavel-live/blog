@@ -1,0 +1,5 @@
+foreach $children do
+	if !@link do
+		<? if(PageData::$template!="multipage" && PageData::$template!="skills"){ print ":sitemap-url :sitemap-children"; } ?>
+	endif
+endforeach

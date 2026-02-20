@@ -1,0 +1,20 @@
+striptags
+
+<?
+
+$elements_of_url =  count(explode("/",$_SERVER['REQUEST_URI']));
+
+if(PageData::$language) 
+	{
+		if($elements_of_url > 3) print ":title-vs-menu — :site-name ";
+		else print ":site-name-long";
+	}
+else
+	{
+		if($elements_of_url > 2) print ":title-vs-menu — :site-name";
+		else print ":site-name-long";
+	}
+
+?>
+
+endstriptags

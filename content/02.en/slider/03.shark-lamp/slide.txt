@@ -1,0 +1,15 @@
+type: Production Start
+-
+title: Sharr-rr-r-k!
+-
+is-dark: yes
+-
+background-color:darkblue
+-
+link: /en/projects/shark-lamp/
+-
+summary:
+
+This concept was&nbsp;created three&nbsp;years ago, but in&nbsp;order to&nbsp;make a&nbsp;product&nbsp;out of&nbsp;an&nbsp;idea we&nbsp;had to&nbsp;make a&nbsp;long&nbsp;way. We&nbsp;gladly announce the&nbsp;Shark&nbsp;lamp production&nbsp;start.
+
+-

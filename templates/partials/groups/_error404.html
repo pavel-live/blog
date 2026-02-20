@@ -1,0 +1,15 @@
+<div class="level">
+	<div class="row txt-to-center">
+					
+		if @title<?=PageData::$language?> do <div class="col w6"><h1>@title<?=PageData::$language?></h1></div> endif
+		if !@title<?=PageData::$language?> do :part-h1 endif
+						
+		if @summary<?=PageData::$language?> do <div class="col w4 w5-dn summary">@summary<?=PageData::$language?></div> endif
+		if !@summary<?=PageData::$language?> do :part-summary endif
+		
+	</div>
+	
+		if @content<?=PageData::$language?> do <div class="row txt-to-center"><div class="col w3">@content<?=PageData::$language?></div></div> endif
+		if !@content<?=PageData::$language?> do <div class="row txt-to-center"><div class="col w3">@content</div></div> endif
+
+</div>

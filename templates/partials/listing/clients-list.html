@@ -1,0 +1,14 @@
+if $children do
+	<div class="row txt-to-center">
+		<div class="col w8 w7-dn w6-dl have-sub-modules grid-responsive clients-list">
+			reverse $children do
+				if @thumb do
+					<div class="col w1-3 client">
+						<div class="pic" style="background-image: url(@thumb);"> if @link do <a href="@link" title="@title"><span>@title</span></a>endif</div>
+						:clients-list-item
+					</div>
+				endif
+			endreverse
+		</div>
+	</div>
+endif

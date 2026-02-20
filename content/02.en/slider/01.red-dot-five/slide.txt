@@ -1,0 +1,15 @@
+type: New Award
+-
+title: The Fifth Dot!
+-
+is-dark: yes
+-
+background-color:#c90707
+-
+link: /en/about/#awards
+-
+summary:
+
+This year's consecutive recognition is&nbsp;the&nbsp;fifth time gaining the&nbsp;Red&nbsp;Dot Design&nbsp;Award in&nbsp;the&nbsp;industrial design sphere. This time already in&nbsp;the 'product&nbsp;design' category for a&nbsp;joint project with the&nbsp;German company Schock.
+
+-

@@ -1,0 +1,72 @@
+multi-language: yes
+-
+
+
+group:
+-
+site-name: Mukomelov Studio
+-
+site-name-long: Mukomelov Studio — world-class industrial design.
+-
+site-description: We create the unique industrial design objects from the researches and the idea search to the object’s production startup.
+-
+site-keywords: design, industrial, product, object, iconic, timeless, prototyping, model making, modeling, cad, visualization
+-
+
+
+group:
+-
+site-name-en: Mukomelov Studio
+-
+site-name-long-en: Mukomelov Studio — world-class industrial design.
+-
+site-description-en: We create the unique industrial design objects from the researches and the idea search to the object’s production startup.
+-
+site-keywords-en: design, industrial, product, object, iconic, timeless, prototyping, model making, modeling, cad, visualization
+-
+
+
+group:
+-
+site-name-ru: Студия Мукомелова
+-
+site-name-long-ru: Студия Мукомелова — промышленный дизайн мирового уровня.
+-
+site-description-ru: Cоздаем уникальные объекты промышленного дизайна от исследований и поиска идеи до запуска объекта в производство.
+-
+site-keywords-ru: дизайн, промышленный дизайн, дизайн объектов, дизайн предметов, industrial, product, iconic, timeless, проектирование, прототипирование, моделирование, cad, визуализация, reddot
+-
+
+
+group:
+-
+link-facebook: http://www.facebook.com/MukomelovStudio
+-
+link-twitter: http://twitter.com/mukomelov
+-
+link-behance: http://be.net/MukomelovStudio
+-
+
+
+group:
+-
+google-analitics-uin:UA-46553678-1
+-
+yandex-metrika-uin:23417350
+-
+google-site-verification:
+-
+yandex-site-verification:
+-
+
+group:
+-
+copyright-start-year: 2007
+-
+
+
+group:
+-
+email: 
+<mail@mukomelov.com>
+-

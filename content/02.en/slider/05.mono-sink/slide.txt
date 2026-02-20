@@ -1,0 +1,15 @@
+type: New Project
+-
+is-dark: yes
+-
+background-color:
+-
+title: The Mono Sink Series
+-
+link: /en/projects/mono-sink/
+-
+summary:
+
+We have accomplished an&nbsp;ambitious project for&nbsp;the&nbsp;German company 'Schock' this&nbsp;year. After&nbsp;its presentation on&nbsp;the&nbsp;'Imm&nbsp;Cologne', this series at&nbsp;once gained the&nbsp;public recognition, occupying the&nbsp;leading positions in&nbsp;the sales and&nbsp;becoming an&nbsp;image of&nbsp;sensual minimalism at&nbsp;the&nbsp;kitchen.
+
+-

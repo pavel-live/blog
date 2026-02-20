@@ -1,0 +1,15 @@
+type: Новая награда
+-
+title: Пятая точка!
+-
+is-dark: yes
+-
+background-color:#c90707
+-
+link: /ru/about/#awards
+-
+summary:
+
+Очередное признание этого года&nbsp;– это получение пятой награды в&nbsp;области промышленного дизайна Red&nbsp;Dot Design&nbsp;Award. Теперь уже в&nbsp;номинации «product&nbsp;design» за&nbsp;совместный проект с&nbsp;немецкой компанией Schock.
+
+-

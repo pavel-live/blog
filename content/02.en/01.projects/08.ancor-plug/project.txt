@@ -1,0 +1,25 @@
+title: Ancor Plug
+-
+date: 2010 June
+-
+client: <a href="http://www.kikkerland.com/">Kikkerland</a>. New York, USA.
+-
+material: Silicone
+-
+awards:
+
+2010 **Design and Design**. Paris, France.
+
+-
+preview-ratio: 1x1
+-
+summary:
+
+A bright bath plug for your bath, which creates a good mood.
+
+-
+content:
+
+> To drop the anchor and to immerse yourself into a bath is an excellent way to relax and to greatly enjoy it. A bright and unusual bath plug is meant for people with a good sense of humor and for the sailors. The cheerful color variants are attached as a set to this product.
+
+-

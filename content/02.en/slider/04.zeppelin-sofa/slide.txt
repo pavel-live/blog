@@ -1,0 +1,15 @@
+type: New Concept
+-
+title: Zeppelin Sofa
+-
+is-dark:
+-
+background-color:#CCC
+-
+link: /en/projects/zeppelin-sofa/
+-
+summary:
+
+We are dreaming of&nbsp;the&nbsp;sky not&nbsp;for the&nbsp;first time. Inspired&nbsp;by the&nbsp;inventor Ferdinand Zeppelin's construction dirigible forms, we&nbsp;proudly demonstrate a&nbsp;sofa conception, which will bring a&nbsp;bit of&nbsp;the&nbsp;sky into your&nbsp;interior.
+
+-

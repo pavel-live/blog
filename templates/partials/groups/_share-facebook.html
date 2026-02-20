@@ -1,0 +1,13 @@
+<!-- Facebook Like -->
+<meta property="og:title" content=" :tag-title-current-and-site " />
+<meta property="og:url" content="//@domain_name/@permalink" />
+<meta property="og:description" content="striptags
+											if @meta-description do @meta-description endif
+											if !@meta-description do :meta-description-automatic endif
+										endstriptags" />
+<meta property="og:site_name" content="striptags :site-name endstriptags" />
+<meta property="og:image" content="striptags
+										if @thumb do //@domain_name/render/w750@thumb_render endif
+										if !@thumb do :thumb-site endif
+									endstriptags" />
+if @facebook-admins do <meta property="fb:admins" content="@facebook-admins" /> endif

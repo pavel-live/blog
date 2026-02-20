@@ -1,0 +1,48 @@
+<div class="gallery">
+	<div class="row txt-to-center">
+		<div class="col w8 have-sub-modules">
+			<div class="item height-body bg-cover bg-fixed if @is-dark do dark endif responsive-bg"    
+			
+				if @thumb do
+					style="background-image: url('@root_path/render/w750@thumb_render');"   
+					data-src-x-small="@root_path/render/w750@thumb_render"   
+					data-src-small="@root_path/render/w1000@thumb_render"   
+					data-src-x-large="@root_path/render/w1500@thumb_render"   
+				endif
+				if @background-color do
+					style="background-color: @background-color ;"   
+				endif
+				><div class="centered">
+					if @type do <p class="type"><strong>@type</strong></p> endif
+					if @title do <h1>@title</h1> endif
+					<div class="summary">
+						if @summary do @summary endif
+						if @date do <p class="date"><em>@date</em></p> endif
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	if $images do <div class="row txt-to-center for-link-bottom"><div class="col hide-down-ml center link-bottom"><a href="#gallery" class="icon view scroll"><span>view</span></a></div></div> endif
+</div>
+<div class="level info" id="info">
+	:_project-sub-nav
+	<div class="row txt-to-left">
+		<div class="col w8 w7-dn w6-dl have-sub-modules grid-responsive">
+			<div class="col w1-3 description"> if @date do <p><em>@date</em></p> endif </div>
+			<div class="col w2-3"> if @content do @content endif </div>
+		</div>
+	</div>
+	<div class="row txt-to-left sub-info">
+		<div class="col w8 w7-dn w6-dl have-sub-modules grid-responsive">
+			<div class="col w1-3 description">
+				if @material do <p><? if(PageData::$language == "-ru") print "Материал:"; else print "Materials:";?> @material</p> endif
+				if @client do <p><? if(PageData::$language == "-ru") print "Клиент:"; else print "Client:";?> @client</p> endif
+			</div>
+			<div class="col w1-3 hide-down-tp"></div>
+			<div class="col w1-3 description"> if @awards do @awards endif </div>
+		</div>
+	</div>
+	<div class="row txt-to-center share"><div class="col w3 center"><h6><? if(PageData::$language == "-ru") print "Поделиться"; else print "Share";?></h6>:_share-social</div></div>
+</div>
+:gallery

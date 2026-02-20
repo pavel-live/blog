@@ -1,0 +1,47 @@
+title: 404
+-
+summary:
+
+Page not found.    
+It looks like the page you requested doesn't exist.
+
+-
+content:
+
+It's possible it might have been removed, moved elsewhere, or maybe it's just one of those days when nothing seems to go right.
+
+← <a href="/">Home Page</a>.
+
+<small>*(Check the spelling of the url, if you typed it in)*</small>
+
+-
+summary-ru:
+
+Страница не найдена.    
+Похоже, что страница, которую вы ищете, не существует.
+
+-
+content-ru:
+
+Вполне возможно, что страница была удалена, перемещена в другое место, или, может быть, это просто один из тех дней, когда все идет не так как хотели.
+
+← <a href="/">На главную страницу</a>.
+
+<small>*(Проверьте правильность написания URL)*</small>
+
+-
+summary-en:
+
+Page not found.    
+It looks like the page you requested doesn't exist.
+
+-
+content-en:
+
+It's possible it might have been removed, moved elsewhere, or maybe it's just one of those days when nothing seems to go right.
+
+← <a href="/">Home Page</a>.
+
+<small>*(Check the spelling of the url, if you typed it in)*</small>
+
+-

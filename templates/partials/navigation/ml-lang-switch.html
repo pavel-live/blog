@@ -1,0 +1,8 @@
+<ul class="no-marker nav">
+	foreach $root do
+		<li>   
+			if !@in_route do <a href="/@permalink">@slug</a> endif
+			if @in_route do <strong>@slug</strong> endif
+		</li>
+	endforeach
+</ul>

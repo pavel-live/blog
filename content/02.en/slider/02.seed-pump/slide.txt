@@ -1,0 +1,15 @@
+type: New Concept
+-
+title: The Seed Restyling
+-
+is-dark:
+-
+background-color:#CCC
+-
+link: /en/projects/seed/
+-
+summary:
+
+Five years ago we&nbsp;have designed thee&nbsp;household pump&nbsp;Seed conception. Today, we&nbsp;decided to&nbsp;breathe a&nbsp;new life into&nbsp;it, using thee&nbsp;current design tendencies, in&nbsp;order to&nbsp;show&nbsp;how it&nbsp;has to&nbsp;look&nbsp;now adays and&nbsp;thee&nbsp;next five&nbsp;years.
+
+-

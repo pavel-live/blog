@@ -1,0 +1,11 @@
+if $children do
+<ul class="no-marker nav">
+	<li>:ml-home-link</li>
+	foreach $children do
+		<li>
+			if @in_route do :menu-item-current endif
+			if !@in_route do <a href=":permalink-vs-link">:menu-vs-title</a> endif
+		</li>
+	endforeach
+</ul>
+endif

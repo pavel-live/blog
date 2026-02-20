@@ -1,0 +1,32 @@
+title: Seed Pump
+-
+date: 2009 March
+-
+client: 
+-
+material: Plastic
+-
+awards:
+
+2010 **Design and Design**. Paris, France.
+
+-
+preview-ratio: 1x2
+-
+is-dark:
+-
+summary:
+
+The household centrifugal pump designed for pumping the water on an automatic basis.
+
+-
+content:
+
+In order to water a kitchen garden or a lawn with the help of a standard surface pump, it is necessary to switch it on, and then to switch it off. During the water pipage to the basins, it is necessary to control the pump in order not to overfill the reservoir. A customer has to prepare a standard household pump for the operation by himself, by binding it to a floating platform or by bending it to a bracket.
+
+> During the Seed pump development, we tried to solve these problems creating a pump, which fits into a pool or a contemporary house exterior.
+
+On the pump's front panel there is a remote control, through which its necessary parameters are set: the time of the pump's turning on and off, countdown before the power shutdown, amount of water which flowed through the pump, after which it will automatically shutdown. Inside the pump's case there is a ballast keeping the pump floating under all conditions.
+
+Esthetically and technologically the Seed pump represents the new ecotechnologies generation. It saves electricity, which is usually spent for the odd amount of the pumped over water. By automatizing its work the pump gives freedom to the owner and triggers the pleasant emotions at every contact with it: the simple and understandable symbols a drop of water and a wheat seed lie at the root of the pump's design solution.
+-

@@ -1,0 +1,19 @@
+<div class="row txt-to-center projects-nav">
+	<div class="col w8 have-sub-modules">
+			<div class="col w1-3">
+				if !@is_last do
+					foreach $next_sibling do
+						<a href="@url" class="arrow a-prev"><i>&#8249;</i><span class="hide-down-tp"><strong>striptags :title-vs-menu endstriptags</strong> if @date do <em>@date</em> endif</span></a>
+					endforeach
+				endif
+			</div>
+			<div class="col w1-3"><a href="../" class="to-list"><span class="cfix"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span></a></div>
+			<div class="col w1-3">
+				if !@is_first do
+					foreach $previous_sibling do
+						<a href="@url" class="arrow a-next"><span class="hide-down-tp"><strong>striptags :title-vs-menu endstriptags</strong> if @date do <em>@date</em> endif</span><i>&#8250;</i></a>
+					endforeach
+				endif
+			</div>
+	</div>
+</div>

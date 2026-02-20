@@ -1,0 +1,157 @@
+﻿.scrollolo-container,
+.scrollolo-container .scrollolo-page { overflow:hidden; display:block; }
+.scrollolo,
+.scrollolo div.item { overflow:hidden; }
+
+.scrollolo-container .scrollolo-clear{ display:block; clear:both; height:1px; font-size:1px; visibility:hidden; margin-top:-1px; }
+
+.scrollolo-navigation {
+						display:block;
+						position:relative;
+						height:1px;
+						margin-top:-1px;
+					}
+
+.scrollolo-navigation .nav-dotted {
+									display:block!important;
+									position:absolute!important;
+									
+									height:12px;
+									width:100%!important;
+									top:-32px;
+									left:50%!important;
+									text-align:center;
+									overflow: visible;
+								}
+
+.scrollolo-navigation .nav-dotted a.nav-dot {
+											display:block;
+											display: -moz-inline-box;
+											display:inline-block;
+											zoom: 1;                 // only for IE
+											*display: inline;        // huck only for IE
+											
+											font-size:13px!important;
+											line-height: 20px!important;
+											word-spacing: normal;
+											letter-spacing: normal;
+											
+											height:12px;
+											width: 12px;
+											color: #000;
+											border: 2px solid currentcolor;
+											margin-right: 15px;
+											margin-left: 15px;
+											-moz-border-radius: 50%;
+											-webkit-border-radius: 50%;
+											border-radius: 50%;
+
+								}
+
+.scrollolo-navigation .nav-dotted a.nav-dot span { display:none; }
+
+.scrollolo-navigation .nav-dotted a.nav-dot:hover,
+.scrollolo-navigation .nav-dotted a.nav-dot:visited:hover{ background: currentcolor; }
+
+.scrollolo-navigation .nav-dotted a.nav-dot.active { cursor:text; background: currentcolor; }
+						
+
+.scrollolo-navigation .nav-arrows {
+									display:block;
+									position:absolute;
+									width:50px;
+									height:100%;
+									top:-100px;
+								}
+
+
+.scrollolo-navigation .nav-arrows.nav-arrow-next { right:0!important; }
+
+.scrollolo-navigation .nav-arrows a { display:none; }
+.scrollolo-navigation .nav-arrows a.hidden { display:none!important; }
+
+.hover-process .scrollolo-navigation .nav-arrows a {
+													display:block;
+													position:absolute;
+													top:50%;
+													vertical-align:middle;
+													text-align:center;
+													margin-top:-70px;
+													width:40px;
+													height:140px;
+												}
+
+.hover-process .scrollolo-navigation .nav-arrows a {
+													color:#000;
+													font-size:10px;
+													line-height:140px;
+													font-family: Arial, Tahoma, Sans Serif;
+													-webkit-opacity: 0.5;
+													-moz-opacity: 0.5;
+													opacity: 0.5;
+													filter:alpha(opacity=50);
+												}
+.hover-process .scrollolo-navigation .nav-arrows.nav-arrow-prev a { left:10px; }
+.hover-process .scrollolo-navigation .nav-arrows.nav-arrow-next a { right:10px;}
+
+.hover-process .scrollolo-navigation .nav-arrows a:hover,
+.hover-process .scrollolo-navigation .nav-arrows a:active,
+.hover-process .scrollolo-navigation .nav-arrows a:visited:hover {
+																font-size:20px;
+																-webkit-opacity: 1;
+																-moz-opacity: 1;
+																opacity: 1;
+																filter:alpha(opacity=100);
+																}
+
+
+.mooving-process .scrollolo-navigation .nav-arrows a { display:none!important; }
+.mooving-process .scrollolo-navigation .nav-arrows { overflow:hidden; }	
+.mooving-process .scrollolo-navigation .nav-arrows.nav-arrow-prev:before,
+.mooving-process .scrollolo-navigation .nav-arrows.nav-arrow-next:after {
+																		content: "";
+																		display:block;
+																		position:absolute;
+																		top:5px;
+																		width:10px;
+																		height:95%;
+
+																		-webkit-border-radius: 30px;
+																		-moz-border-radius: 30px;
+																		border-radius: 30px;
+
+																		-webkit-box-shadow:  0px 0px 7px 0px rgba(0, 0, 0, 0.8);
+																		-moz-box-shadow:  0px 0px 7px 0px rgba(0, 0, 0, 0.8);
+																		box-shadow:  0px 0px 7px 0px rgba(0, 0, 0, 0.8);
+																	}
+																	
+.mooving-process .scrollolo-navigation .nav-arrows.nav-arrow-prev:before { left:-10px; margin-right:-20px;}
+.mooving-process .scrollolo-navigation .nav-arrows.nav-arrow-next:after { right:-10px; margin-left:-20px; }
+
+
+.scrollolo-container .clone{
+	overflow: hidden!important;
+	position: absolute!important;
+	z-index:3!important;
+	margin: 0 0 0 0!important;
+}
+
+
+/* ----------------------------------------- */
+
+
+.scrollolo-navigation .nav-dotted a.nav-dot,
+.scrollolo-navigation .nav-arrows a { color:#333; }
+
+.scrollolo-navigation .nav-arrows a { background: transparent url('arrows.svg') no-repeat left top;  }
+.scrollolo-navigation .nav-arrows.nav-arrow-next a { background-position: right top; }
+.scrollolo-navigation .nav-arrows a span { display: none; }
+
+	.no-svg .scrollolo-navigation .nav-arrows a { background-image: url('arrows.png')!important;  }
+
+.dark .scrollolo-navigation .nav-dotted a.nav-dot,
+.dark .scrollolo-navigation .nav-arrows a { color:#FFF; }
+
+.dark .scrollolo-navigation .nav-arrows a { background-position: left bottom;  }
+.dark .scrollolo-navigation .nav-arrows.nav-arrow-next a { background-position: right bottom; }
+

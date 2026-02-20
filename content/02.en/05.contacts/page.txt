@@ -1,0 +1,30 @@
+title: Contacts
+-
+summary:
+Headquarters is located in Eastern Europe, Ukraine, and this is our&nbsp;additional&nbsp;advantage.
+
+##_We are always open for new projects:_ <mail@mukomelov.com>
+
+-
+1.content:
+
+_Call us at:_   
+**+380 95 6644353**
+
+-
+2.content:
+
+_For the press:_   
+<press@mukomelov.com>
+
+
+-
+3.content:
+
+_Welcome to us:_   
+Ukraine, Simferopol,     
+Dneprovskaya str. 48a, office 1
+
+-
+ending: :pdfs
+-

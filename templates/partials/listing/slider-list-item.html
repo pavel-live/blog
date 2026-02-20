@@ -1,0 +1,40 @@
+<div class="item-scrollolo item height-body bg-cover :part-is-dark-class responsive-bg"     
+												
+	if @is-dark do data-SetClass="dark" endif
+	if @thumb do
+		style="background-image: url('@root_path/render/w750@thumb_render');"      
+		data-src-x-small="@root_path/render/w750@thumb_render"      
+		data-src-small="@root_path/render/w1000@thumb_render"     
+		data-src-x-large="@root_path/render/w1500@thumb_render"     
+	endif
+	if @background-color do
+		style="background-color: @background-color ;"     
+	endif
+	><div class="centered">
+		if @type do <p class="type"><strong>@type</strong></p> endif
+		<h1>@title</h1>
+		if @summary do <div class="summary">@summary</div> endif
+		if @link do <p class="button"><a href="@link"><?
+		
+		$typeLink = "";
+		
+		if (eregi("www|http|https",PageData::$link)) $typeLink = "link";
+		else if (eregi("projects|works|portfolio|folio|cases|photo|video|gallery",PageData::$link)) $typeLink = "view";
+		else if (eregi("life|blog|articles",PageData::$link)) $typeLink = "read";
+		else $typeLink = "read";
+		
+		switch ($typeLink)
+			{
+				case "link": if(PageData::$language == "-ru") print "Посетить"; else print "Visit Link";
+								break;
+				case "view": if(PageData::$language == "-ru") print "Посмотреть"; else print "View Now";
+								break;
+				case "read":
+				
+				default: if(PageData::$language == "-ru") print "Подробнее"; else print "Read More";
+								break;
+			}
+		
+		?></a></p> endif
+	</div>
+</div>

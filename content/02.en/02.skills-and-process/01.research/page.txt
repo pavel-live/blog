@@ -1,0 +1,7 @@
+title: Project Research
+-
+content:
+
+Design starts with right questions that provide an understanding of interaction between a product and a human, and with specifics of manufacturing and business processes of a company. We strive to find a reference point before setting the project development vector.
+
+-

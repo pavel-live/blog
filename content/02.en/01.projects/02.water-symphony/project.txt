@@ -1,0 +1,31 @@
+title: Water Symphony<br /> Mixer Tap
+-
+date: 2009 January
+-
+client:
+-
+materials: 
+-
+awards:
+
+2009 **Red Dot Design Award**, in concept design
+
+-
+preview-ratio: 1x1
+-
+is-dark: yes
+-
+summary:
+
+Innovative mixer tap with touch freee interaction.
+
+-
+content:
+
+> Anyone can feel himself like a band-master, driving of a symphony by the pressure and temperature of the water with the help of hand movements and sensors, enjoying the sounds of water.
+
+The Water Symphony conception consists in the electronic arrangement of the mixer tap, which does not require touching it, but, at the same time, allowing quick and precise adjusting of the needed functions. Also, there is a display situated on the tap, where the water pressure, its temperature and the amount of liters spent for one time and for the last thirty days are displayed.
+
+A microprocessor, which processes the incoming settings is installed under the sink. The water flows through the heating elements reservoir, heating up to the needed temperature. Consequently, only the cold water enters the tap, its heating is performed at a needed time and the heated water passes the shortest way, excluding the heat loss and the odd energy consumption for the constant heating.
+
+-
